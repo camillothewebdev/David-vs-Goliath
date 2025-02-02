@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(40, 39, 39);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 500px;
+    gap:2em;
+    margin:auto;
+    padding:1em;
+}
+.screen{
+    width: 100%;
+    height: 350px;
+}
+button{
+   padding: 0.5em 3em;
+   font-weight: bold;
+   font-size: 1.5rem;
+   border-radius: 14px;
+   cursor: pointer;
+   color: white;
+   background-color: orangered;
+   width: 60%;
+}
+input{
+    font-weight: bold;
+    font-size: 1.5em;
+    padding:0.5em;
+    width: 100%;
+}
+.secondary{
+    background-color: white;
+    color:orangered;
+}
+.fighters-health{
+    display: flex;
+    gap:1em;
+    justify-content: space-between;
+    width: 100%;
+}
+.health{
+    width: 200px;
+    height: 20px;
+    background-color: white;
+}
+.progress{
+    background-color: green;
+    height: 20px;
+    width: 100%;
+}
+#btn-attack{
+    padding:0.1em 1em;
+    border-radius: 50%;
+    width: 120px;
+}
+#btn-attack img{
+   height: 90px;
+   width: 60px;
+}
